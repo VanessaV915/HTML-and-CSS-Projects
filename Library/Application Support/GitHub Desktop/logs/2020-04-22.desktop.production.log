@@ -1,0 +1,5 @@
+2020-04-22T13:08:24.839Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.711s)
+2020-04-22T13:08:31.444Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 5.653s)
+2020-04-22T13:09:01.363Z - info: [ui] Current tutorial step is NotApplicable
+2020-04-22T13:13:14.149Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 7.021s)
+2020-04-22T13:13:16.062Z - info: [ui] Background fetch for 4 repositories took 11.198sec

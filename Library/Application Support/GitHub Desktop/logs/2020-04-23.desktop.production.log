@@ -1,0 +1,12 @@
+2020-04-23T00:37:23.002Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.128s)
+2020-04-23T00:37:27.151Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.580s)
+2020-04-23T00:37:31.066Z - info: [ui] Current tutorial step is NotApplicable
+2020-04-23T00:46:03.999Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 10.876s)
+2020-04-23T00:46:08.746Z - info: [ui] Background fetch for 4 repositories took 17.470sec
+2020-04-23T01:55:53.227Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.074s)
+2020-04-23T01:56:02.171Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 8.326s)
+2020-04-23T01:56:06.461Z - info: [ui] Current tutorial step is NotApplicable
+2020-04-23T02:13:56.900Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 11.622s)
+2020-04-23T02:14:02.289Z - info: [ui] Background fetch for 4 repositories took 19.065sec
+2020-04-23T02:22:22.201Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 7.366s)
+2020-04-23T02:22:25.987Z - info: [ui] Current tutorial step is NotApplicable

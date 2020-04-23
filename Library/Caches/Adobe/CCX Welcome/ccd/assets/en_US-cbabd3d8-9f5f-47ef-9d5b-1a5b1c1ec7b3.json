@@ -1,0 +1,2008 @@
+{
+  "total": 1,
+  "limit": 100,
+  "skip": 0,
+  "includes": {
+    "Entry": [
+      {
+        "sys": {
+          "createdAt": "2019-10-25T18:24:44.695Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "1UA5jaWIo5VmsNmiUOjv0i",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-02-25T19:10:22.141Z",
+          "revision": 68
+        },
+        "fields": {
+          "textList": [
+            "Stand out on social media",
+            "Create and share stunning graphics&#44; web pages&#44; and video stories in minutes with Spark.",
+            "Launch Spark"
+          ],
+          "backgroundColor": "f5033d",
+          "locReady": true,
+          "name": "Social Media Category Default Banner ",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "3ZJub1Bm78SgGMnbERZ3hV",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "default",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "5QB2moWuvtQ7z5yF0teNsW",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "FFFFFF"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-09-12T20:42:08.629Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "1UUEgRLChmsyfNzrDI8zlV",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-03-05T00:26:27.081Z",
+          "revision": 5
+        },
+        "fields": {
+          "name": "Beta category default banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "4PlZLkYClvlWQaPweCI777",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "fullWidth"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-15T03:26:39.830Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "1eU8vHgTHomPjAElvlYf29",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-16T01:14:17.634Z",
+          "revision": 11
+        },
+        "fields": {
+          "textList": [
+            "Adobe Stock",
+            "Get 10 Free Adobe Stock images with your 30-day trial and find the perfect asset to kick-start your next project.",
+            "Go",
+            "Search Adobe Stock"
+          ],
+          "backgroundColor": "19305a",
+          "locReady": false,
+          "name": "Illustration Category Default Stock Search Banner Item",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "6uDde5o97od7pGesa4ndLq",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "searchStandard",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "6tAb00jaB7MZsj8usBnOFW",
+                "type": "Link"
+              }
+            },
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "1RIwZiG1XBRrwg5MJtHHoS",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "FFFFFF"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-13T20:50:37.793Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "2Ul1q2GHHG0YDzlFhB7hoO",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-12-10T15:31:43.098Z",
+          "revision": 76
+        },
+        "fields": {
+          "name": "Design Category Stock Search URL CGEN",
+          "targetClientID": "AdobeStockClient1",
+          "targetType": "in-browser",
+          "targetScope": "AdobeID,openid,creative_cloud,read_organizations,gnav,additional_info.address.mail_to,sao.stock\t",
+          "url": "https://stock.adobe.com/search?as_camptype=app&k={search_input}&trackingid=9MZL4C4F&mv=in-product&as_channel=adobe_apps&as_source=Creative%20Cloud%20Desktop&as_campaign=category_design&as_content=banner"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-15T17:41:50.061Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "2gmeyD7Dyz59P8eS6Q8d0d",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-26T00:02:12.413Z",
+          "revision": 2
+        },
+        "fields": {
+          "name": "Default Social Category Banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "1UA5jaWIo5VmsNmiUOjv0i",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "fullWidth"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-01T20:03:15.798Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "2iHT0jRveyHVG2Hs4W1pn3",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-16T01:13:34.448Z",
+          "revision": 23
+        },
+        "fields": {
+          "textList": [
+            "Adobe Stock",
+            "Get 10 Free Adobe Stock images with your 30-day trial and find the perfect asset to kick-start your next project.",
+            "Go",
+            "Search Adobe Stock"
+          ],
+          "backgroundColor": "949494",
+          "locReady": false,
+          "name": "Photography Category Default Stock Search Banner Item",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "DFIpPGCLtYmxTgjKQ4yar",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "searchStandard",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "3Cjh9WKd5awVstTpzgNgO9",
+                "type": "Link"
+              }
+            },
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "1RIwZiG1XBRrwg5MJtHHoS",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "FFFFFF"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-01T20:04:50.415Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "30mvgUtkFu7qmvqQ2huBQi",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-13T21:49:13.827Z",
+          "revision": 3
+        },
+        "fields": {
+          "name": "Photography Category Default Stock Search Banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "2iHT0jRveyHVG2Hs4W1pn3",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "fullWidth"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-03T21:00:32.771Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "39qKwHNfd2M3Mst6dU0GCF",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-12-10T15:46:32.044Z",
+          "revision": 83
+        },
+        "fields": {
+          "name": "Acrobat Tutorials URL link ",
+          "targetClientID": "CreativeCloudWeb1",
+          "targetType": "in-browser",
+          "targetScope": "openid,creative_cloud",
+          "url": "https://helpx.adobe.com/acrobat/tutorials.html",
+          "ingestId": "banner-acrobat-pdf-default"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-28T17:22:05.817Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "3ZJub1Bm78SgGMnbERZ3hV",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-12-16T23:07:16.184Z",
+          "revision": 65
+        },
+        "fields": {
+          "name": "Social Banner default web URL",
+          "targetClientID": "MarvelWeb2",
+          "targetType": "in-browser",
+          "targetScope": "AdobeID,openid,creative_sdk,gnav,sao.spark,additional_info.projectedProductContext,update_profile.mrktPerm",
+          "url": "https://spark.adobe.com",
+          "ingestId": "banner_social_media_default"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2020-02-19T23:19:34.845Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "45BuKrnIOj0r7jrPHgOWU8",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-03-03T22:55:28.624Z",
+          "revision": 4
+        },
+        "fields": {
+          "locReady": true,
+          "name": "Beta Category Default Banner - FAQ URL",
+          "targetClientID": "CreativeCloudWeb1",
+          "targetType": "in-browser",
+          "title": "FAQ",
+          "targetScope": "openid,creative_cloud",
+          "url": "https://helpx.adobe.com/x-productkb/global/creative-cloud-public-beta.html",
+          "ingestId": "beta-category-default-banner-feb-launch"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2020-03-03T04:38:31.491Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "4PlZLkYClvlWQaPweCI777",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-03-20T01:31:06.248Z",
+          "revision": 14
+        },
+        "fields": {
+          "textList": [
+            "Beta apps",
+            "Share your feedback on upcoming builds. Note: Beta apps collect usage data; regular app settings do not apply.",
+            "Usage Policy & FAQ"
+          ],
+          "backgroundColor": "eaeaea",
+          "locReady": true,
+          "name": "Beta Category Default Banner - 5.1 Release",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "45BuKrnIOj0r7jrPHgOWU8",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "default",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "6XYWpouPI3U3V7BQiHfRej",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "323232"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2020-01-06T19:07:53.622Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "4UyJfspaY8ADWJzmnulsPP",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-01-27T18:43:46.897Z",
+          "revision": 2
+        },
+        "fields": {
+          "locReady": false,
+          "name": "XD Updated tutorials links",
+          "targetClientID": "CreativeCloudWeb1",
+          "targetType": "in-browser",
+          "targetScope": "openid,creative_cloud",
+          "url": "https://www.adobe.com/go/LetsXD",
+          "ingestId": "banner-xd-category-default-v2"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-01T20:04:25.023Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "4jfb6euJ1Rz6MWj4Fa7Kvd",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-15T23:55:34.223Z",
+          "revision": 24
+        },
+        "fields": {
+          "textList": [
+            "Adobe Stock",
+            "Discover amazing video assets&#44; from HD and 4k clips to motion graphics templates&#44; and save up to 15% on videos with Credit Packs.",
+            "Go",
+            "Search Adobe Stock"
+          ],
+          "backgroundColor": "090a04",
+          "locReady": false,
+          "name": "Video Category Default Stock Search Banner Item",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "k6NEGQNMqMJeLTB5UK1zv",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "searchStandard",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "6QruSwymYpRshy1C546giI",
+                "type": "Link"
+              }
+            },
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "1RIwZiG1XBRrwg5MJtHHoS",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "FFFFFF"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-07T19:21:23.649Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "52eX2fyuwej4pmBWspDAY3",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-07T19:21:23.649Z",
+          "revision": 1
+        },
+        "fields": {
+          "name": "Default Acrobat Category Banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "i8Xl0qDQka9qG2D4UilDM",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "fullWidth"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-09-12T20:35:27.330Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "5fyxrRHdv0lxNZas55ccux",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-01-31T18:16:57.494Z",
+          "revision": 2
+        },
+        "fields": {
+          "name": "UI & UX category default banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "7pVc8otZwpwlZ8iEzeIhKv",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "fullWidth"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-01T20:05:38.026Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "5kYcO2cjgyK5UgNPgYa0KS",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-13T21:48:21.924Z",
+          "revision": 2
+        },
+        "fields": {
+          "name": "Video Category Default Stock Search Banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "4jfb6euJ1Rz6MWj4Fa7Kvd",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "fullWidth"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-08T16:53:53.713Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "5p190kKI9V0vitZRDzEUSQ",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-01-13T18:12:59.643Z",
+          "revision": 9
+        },
+        "fields": {
+          "locReady": false,
+          "name": "3D & AR Category Default Banner URL",
+          "targetClientID": "CreativeCloudWeb1",
+          "targetType": "in-browser",
+          "targetScope": "openid,creative_cloud",
+          "url": "https://www.adobe.com/creativecloud/3d-augmented-reality.html",
+          "ingestId": "3d-ar-category-banner"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-15T17:39:36.666Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "5twPqFh8DpCoHMXLqYRwwK",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-01-13T18:14:04.354Z",
+          "revision": 73
+        },
+        "fields": {
+          "textList": [
+            "Unleash your ideas in 3D and augmented reality",
+            "Powering the next generation of digital content and experiences with intuitive apps and services",
+            "Learn More"
+          ],
+          "backgroundColor": "141414",
+          "locReady": false,
+          "name": "3D & AR Category Default Banner ",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "5p190kKI9V0vitZRDzEUSQ",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "default",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "7mNrx6rDtHTJ2D5oyWgrhf",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "FFFFFF"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-13T21:53:50.967Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6Mr7eWmexXev6YHb1F99Xn",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-15T03:57:29.616Z",
+          "revision": 2
+        },
+        "fields": {
+          "name": "Design Category Default Stock Search Banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "6VBA3WCfD3F1SWOmXu1qis",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "fullWidth"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-15T03:52:51.271Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6VBA3WCfD3F1SWOmXu1qis",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-16T01:15:32.199Z",
+          "revision": 13
+        },
+        "fields": {
+          "textList": [
+            "Adobe Stock",
+            "Get 10 Free Adobe Stock images with your 30-day trial and find the perfect asset to kick-start your next project.",
+            "Go",
+            "Search Adobe Stock"
+          ],
+          "backgroundColor": "45507e",
+          "locReady": false,
+          "name": "Design Category Default Stock Search Banner Item",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "2Ul1q2GHHG0YDzlFhB7hoO",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "searchStandard",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "6Kll23BYsXFvJtM9R1d94s",
+                "type": "Link"
+              }
+            },
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "1RIwZiG1XBRrwg5MJtHHoS",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "FFFFFF"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-11-25T19:13:14.820Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6bfRH6tWGrwiBZ79ckkABq",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-02-22T15:26:17.118Z",
+          "revision": 26
+        },
+        "fields": {
+          "textList": [
+            "Create realistic designs with 3D materials",
+            "&nbsp;",
+            "Learn more"
+          ],
+          "backgroundColor": "56423b",
+          "locReady": true,
+          "name": "3D category - default Substance one third banner",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "hpIRlQT9EOsCFCDouTwgn",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "default",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "7k9sMK16IFQJvpNa19R9DB",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "FFFFFF"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-13T20:57:49.302Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6uDde5o97od7pGesa4ndLq",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-16T23:54:04.656Z",
+          "revision": 16
+        },
+        "fields": {
+          "locReady": false,
+          "name": "Illustration Category Stock Search URL CGEN",
+          "targetClientID": "AdobeStockClient1",
+          "targetType": "in-browser",
+          "targetScope": "AdobeID,openid,creative_cloud,read_organizations,gnav,additional_info.address.mail_to,sao.stock\t",
+          "url": "https://stock.adobe.com/search?k={search_input}&trackingid=9J8K4GVG&mv=inproduct&as_channel=adobe_apps&as_source=Creative%20Cloud%20Desktop&as_campaign=category_illustration&as_content=banner"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-13T21:54:33.274Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "7TYLgsEwkXvv58Ex2iMYA",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-15T03:56:50.886Z",
+          "revision": 2
+        },
+        "fields": {
+          "name": "Illustration Category Default Stock Search Banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "1eU8vHgTHomPjAElvlYf29",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "fullWidth"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2020-01-24T01:15:25.195Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "7pVc8otZwpwlZ8iEzeIhKv",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-01-29T17:57:49.170Z",
+          "revision": 2
+        },
+        "fields": {
+          "textList": [
+            "Learn and master Adobe XD",
+            "Explore guides&#44; tutorials&#44; and tips for designing and prototyping in XD",
+            "Visit Let's XD"
+          ],
+          "backgroundColor": "5958e0",
+          "locReady": false,
+          "name": "UI & UX Category Banner Item v2",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "4UyJfspaY8ADWJzmnulsPP",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "default",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "w2BpLnXxoFqJvRceWICxi",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "FFFFFF"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-01T17:35:07.442Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "DFIpPGCLtYmxTgjKQ4yar",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-12-10T15:45:31.854Z",
+          "revision": 87
+        },
+        "fields": {
+          "name": "Photography Category Stock Search URL CGEN",
+          "targetClientID": "AdobeStockClient1",
+          "targetType": "in-browser",
+          "targetScope": "AdobeID,openid,creative_cloud,read_organizations,gnav,additional_info.address.mail_to,sao.stock\t",
+          "url": "https://stock.adobe.com/search?k={search_input}&trackingid=W2T7JXBS&mv=inproduct&as_channel=adobe_apps&as_source=Creative%20Cloud%20Desktop&as_campaign=category_photo&as_content=banner"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-15T17:40:29.369Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "ZUB06YF0K0b0FlS2u0tyH",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBanner",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-12-18T17:52:46.601Z",
+          "revision": 6
+        },
+        "fields": {
+          "name": "Default 3D & AR Category Banner",
+          "itemList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "5twPqFh8DpCoHMXLqYRwwK",
+                "type": "Link"
+              }
+            },
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "6bfRH6tWGrwiBZ79ckkABq",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "twoThirdOneThird"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-11-25T19:13:04.414Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "hpIRlQT9EOsCFCDouTwgn",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-12-18T17:52:15.439Z",
+          "revision": 2
+        },
+        "fields": {
+          "locReady": false,
+          "name": "Substance offer for Creative Cloud users",
+          "url": "http://bit.ly/substancecc",
+          "ingestId": "banner-substance-3d-offer"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-03T21:03:12.319Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "i8Xl0qDQka9qG2D4UilDM",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsBannerItem",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-02-25T19:03:36.260Z",
+          "revision": 82
+        },
+        "fields": {
+          "textList": [
+            "Unleash the power of PDF",
+            "Edit&#44; create&#44; sign and share PDFs from anywhere.",
+            "View Acrobat Tutorials"
+          ],
+          "backgroundColor": "f1cc6c",
+          "locReady": true,
+          "name": "Acrobat & PDF Category Default Banner ",
+          "urlList": [
+            {
+              "sys": {
+                "linkType": "Entry",
+                "id": "39qKwHNfd2M3Mst6dU0GCF",
+                "type": "Link"
+              }
+            }
+          ],
+          "layoutID": "default",
+          "imageList": [
+            {
+              "sys": {
+                "linkType": "Asset",
+                "id": "6szDxQVoagR4AhwYJ9V4zL",
+                "type": "Link"
+              }
+            }
+          ],
+          "colorTextList": [
+            "323232"
+          ]
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-01T17:35:29.164Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "k6NEGQNMqMJeLTB5UK1zv",
+          "type": "Entry",
+          "locale": "en-US",
+          "contentType": {
+            "sys": {
+              "linkType": "ContentType",
+              "id": "appsUrl",
+              "type": "Link"
+            }
+          },
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-01-07T23:16:04.896Z",
+          "revision": 87
+        },
+        "fields": {
+          "locReady": false,
+          "name": "Video Category Stock Search URL CGEN",
+          "targetClientID": "AdobeStockClient1",
+          "targetType": "in-browser",
+          "targetScope": "AdobeID,openid,creative_cloud,read_organizations,gnav,additional_info.address.mail_to,sao.stock\t",
+          "url": "https://stock.adobe.com/search/video?content_type=video&as_camptype=app&k={search_input}&trackingid=JZBJVZJR&as_channel=adobe_apps&as_campclass=brand&as_audience=video&as_source=ccd&as_campaign=defaultvideo&as_content=banner"
+        }
+      }
+    ],
+    "Asset": [
+      {
+        "sys": {
+          "createdAt": "2019-09-05T22:58:06.657Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "1RIwZiG1XBRrwg5MJtHHoS",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-09-05T22:58:37.240Z",
+          "revision": 2
+        },
+        "fields": {
+          "file": {
+            "fileName": "stocklogo.png",
+            "details": {
+              "image": {
+                "width": 44,
+                "height": 42
+              },
+              "size": 2131
+            },
+            "contentType": "image/png",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/1RIwZiG1XBRrwg5MJtHHoS-stocklogo.png",
+            "path": "assets/en_US-fec7775c-57ff-469d-a9a6-ade90846626e.png"
+          },
+          "title": "stocklogo"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-14T20:43:46.134Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "3Cjh9WKd5awVstTpzgNgO9",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-14T20:43:46.134Z",
+          "revision": 1
+        },
+        "fields": {
+          "file": {
+            "fileName": "StockDefaultPhotographyB.jpg",
+            "details": {
+              "image": {
+                "width": 1528,
+                "height": 480
+              },
+              "size": 132577
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/3Cjh9WKd5awVstTpzgNgO9-StockDefaultPhotographyB.jpg",
+            "path": "assets/en_US-a3cdb64f-7581-42c9-a94a-3ab3336c2e17.jpeg"
+          },
+          "title": "StockDefaultPhotographyB"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-25T18:20:57.444Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "5QB2moWuvtQ7z5yF0teNsW",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-28T17:15:19.440Z",
+          "revision": 2
+        },
+        "fields": {
+          "file": {
+            "fileName": "CCD-Spark.jpg",
+            "details": {
+              "image": {
+                "width": 1528,
+                "height": 480
+              },
+              "size": 247576
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/5QB2moWuvtQ7z5yF0teNsW-CCD-Spark.jpg",
+            "path": "assets/en_US-9aeec75e-7e7f-4548-a32c-8f5cd5c94f7c.jpeg"
+          },
+          "title": "Social Media default category banner"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-14T20:44:42.315Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6Kll23BYsXFvJtM9R1d94s",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-14T20:44:42.315Z",
+          "revision": 1
+        },
+        "fields": {
+          "file": {
+            "fileName": "StockDefaultDesignB.jpg",
+            "details": {
+              "image": {
+                "width": 1528,
+                "height": 480
+              },
+              "size": 327614
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/6Kll23BYsXFvJtM9R1d94s-StockDefaultDesignB.jpg",
+            "path": "assets/en_US-766e2220-fb97-4f4d-a94c-e1606280ae6f.jpeg"
+          },
+          "title": "StockDefaultDesignB"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-14T20:45:45.528Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6QruSwymYpRshy1C546giI",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-14T20:45:45.528Z",
+          "revision": 1
+        },
+        "fields": {
+          "file": {
+            "fileName": "StockDefaultVideoB.jpg",
+            "details": {
+              "image": {
+                "width": 1528,
+                "height": 480
+              },
+              "size": 293766
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/6QruSwymYpRshy1C546giI-StockDefaultVideoB.jpg",
+            "path": "assets/en_US-ef0c2e2b-9f1a-4516-bbda-002d8270291c.jpeg"
+          },
+          "title": "StockDefaultVideoB"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2020-02-19T23:13:21.730Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6XYWpouPI3U3V7BQiHfRej",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2020-02-19T23:13:21.730Z",
+          "revision": 1
+        },
+        "fields": {
+          "file": {
+            "fileName": "beta_apps_cc_desktop_banner_1528x420.png",
+            "details": {
+              "image": {
+                "width": 1529,
+                "height": 420
+              },
+              "size": 17486
+            },
+            "contentType": "image/png",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/6XYWpouPI3U3V7BQiHfRej-beta_apps_cc_desktop_banner_1528x420.png",
+            "path": "assets/en_US-037cb6af-9091-4d76-a53e-63f16fa4e0f9.png"
+          },
+          "title": "Beta Category Default Banner - Feb Launch"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-07T19:25:00.617Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6szDxQVoagR4AhwYJ9V4zL",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-07T19:25:00.617Z",
+          "revision": 1
+        },
+        "fields": {
+          "file": {
+            "fileName": "CC_Home_Acrobat-PDF_Banner.jpg",
+            "details": {
+              "image": {
+                "width": 1528,
+                "height": 480
+              },
+              "size": 68291
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/6szDxQVoagR4AhwYJ9V4zL-CC_Home_Acrobat-PDF_Banner.jpg",
+            "path": "assets/en_US-22810282-5731-4953-8d6a-0031f1f5a551.jpeg"
+          },
+          "title": "CC Home Acrobat-PDF Banner"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-14T20:42:23.405Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "6tAb00jaB7MZsj8usBnOFW",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-14T20:42:23.405Z",
+          "revision": 1
+        },
+        "fields": {
+          "file": {
+            "fileName": "StockDefaultIllustrationB.jpg",
+            "details": {
+              "image": {
+                "width": 1528,
+                "height": 480
+              },
+              "size": 94915
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/6tAb00jaB7MZsj8usBnOFW-StockDefaultIllustrationB.jpg",
+            "path": "assets/en_US-80bb04b1-11cf-4307-a238-5df5bb4b9cb7.jpeg"
+          },
+          "title": "StockDefaultIllustrationB"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-11-25T19:10:10.619Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "7k9sMK16IFQJvpNa19R9DB",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-11-25T19:10:10.619Z",
+          "revision": 1
+        },
+        "fields": {
+          "file": {
+            "fileName": "Substance-banner-one-third2.jpg",
+            "details": {
+              "image": {
+                "width": 640,
+                "height": 480
+              },
+              "size": 233837
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/7k9sMK16IFQJvpNa19R9DB-Substance-banner-one-third2.jpg",
+            "path": "assets/en_US-d05b8eec-5b51-420c-a59b-5abfab952217.jpeg"
+          },
+          "title": "Substance-banner-one-third"
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-10-08T16:51:42.204Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "7mNrx6rDtHTJ2D5oyWgrhf",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-10-08T16:51:42.204Z",
+          "revision": 1
+        },
+        "fields": {
+          "file": {
+            "fileName": "3dAR2.jpg",
+            "details": {
+              "image": {
+                "width": 1528,
+                "height": 480
+              },
+              "size": 105751
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/7mNrx6rDtHTJ2D5oyWgrhf-3dAR2.jpg",
+            "path": "assets/en_US-1158d6b1-567a-4a7d-ba9e-96956d473c4a.jpeg"
+          },
+          "title": "3D & AR Category Default Banner "
+        }
+      },
+      {
+        "sys": {
+          "createdAt": "2019-09-12T20:47:25.174Z",
+          "environment": {
+            "sys": {
+              "linkType": "Environment",
+              "id": "master",
+              "type": "Link"
+            }
+          },
+          "id": "w2BpLnXxoFqJvRceWICxi",
+          "type": "Asset",
+          "locale": "en-US",
+          "space": {
+            "sys": {
+              "linkType": "Space",
+              "id": "m7pucerxfswt",
+              "type": "Link"
+            }
+          },
+          "updatedAt": "2019-09-30T16:40:49.552Z",
+          "revision": 3
+        },
+        "fields": {
+          "file": {
+            "fileName": "CCD_banner_template_XD.jpg",
+            "details": {
+              "image": {
+                "width": 1528,
+                "height": 480
+              },
+              "size": 159092
+            },
+            "contentType": "image/jpeg",
+            "url": "https://cvs.adobe.com/content/dam/cvs/ccdesktop/655/6BtQd4rkiAfOCifagjC9en/assets/w2BpLnXxoFqJvRceWICxi-CCD_banner_template_XD.jpg",
+            "path": "assets/en_US-f0d9b4c3-669c-4ae3-97d1-b1b51dcab79f.jpeg"
+          },
+          "title": "UI & UX Category default banner"
+        }
+      }
+    ]
+  },
+  "sys": {
+    "type": "Array"
+  },
+  "items": [
+    {
+      "sys": {
+        "createdAt": "2019-09-27T17:55:21.006Z",
+        "environment": {
+          "sys": {
+            "linkType": "Environment",
+            "id": "master",
+            "type": "Link"
+          }
+        },
+        "id": "6BtQd4rkiAfOCifagjC9en",
+        "type": "Entry",
+        "locale": "en-US",
+        "contentType": {
+          "sys": {
+            "linkType": "ContentType",
+            "id": "experienceCategoriesBanners",
+            "type": "Link"
+          }
+        },
+        "space": {
+          "sys": {
+            "linkType": "Space",
+            "id": "m7pucerxfswt",
+            "type": "Link"
+          }
+        },
+        "updatedAt": "2019-10-16T20:30:00.192Z",
+        "revision": 9
+      },
+      "fields": {
+        "ar": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "ZUB06YF0K0b0FlS2u0tyH",
+            "type": "Link"
+          }
+        },
+        "ux_web": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "5fyxrRHdv0lxNZas55ccux",
+            "type": "Link"
+          }
+        },
+        "design": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "6Mr7eWmexXev6YHb1F99Xn",
+            "type": "Link"
+          }
+        },
+        "experienceName": "Stock Search Default Categories Banners",
+        "illustration": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "7TYLgsEwkXvv58Ex2iMYA",
+            "type": "Link"
+          }
+        },
+        "video_audio": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "5kYcO2cjgyK5UgNPgYa0KS",
+            "type": "Link"
+          }
+        },
+        "acrobat_pdf": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "52eX2fyuwej4pmBWspDAY3",
+            "type": "Link"
+          }
+        },
+        "beta_apps": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "1UUEgRLChmsyfNzrDI8zlV",
+            "type": "Link"
+          }
+        },
+        "photography": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "30mvgUtkFu7qmvqQ2huBQi",
+            "type": "Link"
+          }
+        },
+        "social_media": {
+          "sys": {
+            "linkType": "Entry",
+            "id": "2gmeyD7Dyz59P8eS6Q8d0d",
+            "type": "Link"
+          }
+        }
+      }
+    }
+  ]
+}
