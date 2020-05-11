@@ -1,0 +1,4 @@
+2020-05-07T13:12:18.701Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 5.651s)
+2020-05-07T13:12:22.032Z - info: [ui] Current tutorial step is NotApplicable
+2020-05-07T13:15:49.632Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.074s)
+2020-05-07T13:15:50.794Z - info: [ui] Background fetch for 4 repositories took 4.928sec

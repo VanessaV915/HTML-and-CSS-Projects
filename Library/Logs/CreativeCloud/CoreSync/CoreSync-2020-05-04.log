@@ -1,0 +1,412 @@
+2020-05-04T09:30:02.688900Z: t=14203: Info: ACSL.Eng: HealthCheck: Making call to discovery (ACSLEng.cpp.HealthCheck.592)
+2020-05-04T09:30:03.502507Z: t=0307: Info: jura: Connectivity change was: online, now: offline (NetworkMonitor_mac.mm.onReachabilityChange.198)
+2020-05-04T09:30:04.320114Z: t=0307: Info: jura: Connectivity change was: offline, now: online (NetworkMonitor_mac.mm.onReachabilityChange.198)
+2020-05-04T09:30:06.316230Z: t=b703: Info: job: Begin handleErrorHandler JobController for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative, eErr=unauthorized, sErr=http:Unauthorized (401) uri=https://scss.adobesc.com/api/v1 reqid=38cb0e128c3e279115885378312516700100files(ErrAuthorization) (JobController.cpp.handleErrorHandler.754)
+2020-05-04T09:30:06.321611Z: t=b703: Info: job: Begin Stop in state auth from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T09:30:06.321811Z: t=b703: Info: job: Stopping in state auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2812)
+2020-05-04T09:30:06.324020Z: t=b703: Info: cache_management: Begin CacheManager::stop for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (CacheManager.cpp.stop.49)
+2020-05-04T09:30:06.324420Z: t=b703: Info: cache_management: End CacheManager::stop for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (CacheManager.cpp.stop.49)
+2020-05-04T09:30:06.324925Z: t=b703: Info: job: Begin Stopping asset store controller asset_store.8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopAssetStore.2866)
+2020-05-04T09:30:06.325446Z: t=b703: Info: job: End Stopping asset store controller asset_store.8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopAssetStore.2866)
+2020-05-04T09:30:06.325501Z: t=b703: Info: job: Begin Stopping journal monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopJournalMonitor.2894)
+2020-05-04T09:30:06.325530Z: t=b703: Info: job: End Stopping journal monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopJournalMonitor.2894)
+2020-05-04T09:30:06.328127Z: t=b703: Info: job: File Monitoring was asked to stop on: : stopJob 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobProgressHandler.cpp.cbLogWG.317)
+2020-05-04T09:30:06.328217Z: t=b703: Info: job: File Monitoring was asked to stop on: : stopJob 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobProgressHandler.cpp.cbLogWG.317)
+2020-05-04T09:30:06.328278Z: t=b703: Info: job: Notifying job status stopped+auth for job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.setState.3300)
+2020-05-04T09:30:06.328563Z: t=b703: Info: job: Sending ETS event for job state: CORESYNC_JOB_STATE.CORESYNC_JOB_STATE_STOPPED (JobController.cpp.sendJobETSEvent.3686)
+2020-05-04T09:30:06.330515Z: t=b703: Info: job: End Stop in state auth from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T09:30:06.330580Z: t=b703: Info: job: End handleErrorHandler JobController for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative, eErr=unauthorized, sErr=http:Unauthorized (401) uri=https://scss.adobesc.com/api/v1 reqid=38cb0e128c3e279115885378312516700100files(ErrAuthorization) (JobController.cpp.handleErrorHandler.754)
+2020-05-04T09:30:06.333269Z: t=b703: Info: job: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.startHandler.2693)
+2020-05-04T09:30:06.334125Z: t=b703: Error: task: exception http:Unauthorized (401) uri=https://scss.adobesc.com/api/v1 reqid=38cb0e128c3e279115885378312516700100files(ErrAuthorization): unauthorized siberrtype:2 in doWork (Task.h.doWork.188)
+2020-05-04T09:30:07.723311Z: t=14203: Info: job: Begin handleErrorHandler JobController for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files, eErr=unauthorized, sErr=http:Unauthorized (401) uri=https://scss.adobesc.com/api/v1 reqid=38cb0e128c3e279115885594063026950101files(ErrAuthorization) (JobController.cpp.handleErrorHandler.754)
+2020-05-04T09:30:07.723550Z: t=14203: Info: job: Begin Stop in state auth from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T09:30:07.723617Z: t=14203: Info: job: Stopping in state auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2812)
+2020-05-04T09:30:07.724158Z: t=14203: Info: job: Begin Stopping asset store controller asset_store.8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopAssetStore.2866)
+2020-05-04T09:30:07.724245Z: t=14203: Info: job: End Stopping asset store controller asset_store.8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopAssetStore.2866)
+2020-05-04T09:30:07.724306Z: t=14203: Info: job: Begin Stopping journal monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopJournalMonitor.2894)
+2020-05-04T09:30:07.724357Z: t=14203: Info: job: End Stopping journal monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopJournalMonitor.2894)
+2020-05-04T09:30:07.724455Z: t=14203: Info: job: File Monitoring was asked to stop on: : stopJob 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobProgressHandler.cpp.cbLogWG.317)
+2020-05-04T09:30:07.724527Z: t=14203: Info: job: File Monitoring was asked to stop on: : stopJob 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobProgressHandler.cpp.cbLogWG.317)
+2020-05-04T09:30:07.724579Z: t=14203: Info: job: Notifying job status stopped+auth for job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.setState.3300)
+2020-05-04T09:30:07.724774Z: t=14203: Info: job: Sending ETS event for job state: CORESYNC_JOB_STATE.CORESYNC_JOB_STATE_STOPPED (JobController.cpp.sendJobETSEvent.3686)
+2020-05-04T09:30:07.727034Z: t=14203: Info: shellux: JOB_STOP_AFTER (ShellConnectorImpl.cpp.operator().339)
+2020-05-04T09:30:07.728129Z: t=14203: Info: shellux: Begin notifySyncEnablement  syncIsEnabled 0 (ShellConnectorImpl.cpp.notifySyncEnablement.421)
+2020-05-04T09:30:07.728685Z: t=5c03: Info: ipc: Sending sync.out.notify.job.status 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files 2c24d95d-0916-475f-ab33-a7f577bbe654 >> ADCS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <job>files</job>
+  <majorstate>stopped</majorstate>
+  <minorstate>auth</minorstate>
+  <requestid>2c24d95d-0916-475f-ab33-a7f577bbe654</requestid>
+  <type>sync.out.notify.job.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T09:30:07.735048Z: t=5c03: Info: ipc: Sending sync.out.notify.job.status 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files a496e299-418a-45b6-9cdf-1027ddc0755d >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <job>files</job>
+  <majorstate>stopped</majorstate>
+  <minorstate>auth</minorstate>
+  <requestid>a496e299-418a-45b6-9cdf-1027ddc0755d</requestid>
+  <type>sync.out.notify.job.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T09:30:07.737841Z: t=14203: Info: MacShellConnectorHelperImpl: Begin removeLocationOfInterest (ShellConnectorHelper.mm.removeLocationOfInterest.296)
+2020-05-04T09:30:07.747819Z: t=14203: Info: MacShellConnectorHelperImpl: End removeLocationOfInterest (ShellConnectorHelper.mm.removeLocationOfInterest.296)
+2020-05-04T09:30:07.753421Z: t=14203: Info: MacShellConnectorHelperImpl: removeRemoteStateCache updated finder extension state cache with 0 items (ShellConnectorHelper.mm.-[MacShellConnectorHelperImpl removeRemoteStateCache:]_block_invoke.176)
+2020-05-04T09:30:07.753760Z: t=14203: Info: shellux: End notifySyncEnablement  syncIsEnabled 0 (ShellConnectorImpl.cpp.notifySyncEnablement.421)
+2020-05-04T09:30:07.753827Z: t=14203: Info: job: End Stop in state auth from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T09:30:07.753870Z: t=14203: Info: job: End handleErrorHandler JobController for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files, eErr=unauthorized, sErr=http:Unauthorized (401) uri=https://scss.adobesc.com/api/v1 reqid=38cb0e128c3e279115885594063026950101files(ErrAuthorization) (JobController.cpp.handleErrorHandler.754)
+2020-05-04T09:30:07.753932Z: t=14203: Info: job: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.startHandler.2693)
+2020-05-04T09:30:07.753985Z: t=14203: Error: task: exception http:Unauthorized (401) uri=https://scss.adobesc.com/api/v1 reqid=38cb0e128c3e279115885594063026950101files(ErrAuthorization): unauthorized siberrtype:2 in doWork (Task.h.doWork.188)
+2020-05-04T09:30:07.754043Z: t=6d1f: Info: syn: End Starting jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startJobsHandlerIf.1804)
+2020-05-04T09:30:07.759277Z: t=6d1f: Info: syn: Begin Starting change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startChangeMonitorsHandlerIf.2121)
+2020-05-04T09:30:07.759369Z: t=b307: Info: mon: Begin Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.413)
+2020-05-04T09:30:07.760005Z: t=b307: Info: mon: Starting 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.429)
+2020-05-04T09:30:07.760118Z: t=b307: Info: mon: Notifying changeMonitor status stopped+enabled for changeMonitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.setState.564)
+2020-05-04T09:30:07.760680Z: t=5c03: Info: ipc: Sending sync.out.notify.changemonitor.status 8D0E76C95CFBD7880A495C73@AdobeID e45a56e9-1679-43d6-bd0c-a8c195b3459b >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <changemonitor>cclibraries</changemonitor>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <majorstate>stopped</majorstate>
+  <minorstate>enabled</minorstate>
+  <requestid>e45a56e9-1679-43d6-bd0c-a8c195b3459b</requestid>
+  <type>sync.out.notify.changemonitor.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T09:30:07.772738Z: t=b307: Info: ACSL.Eng: HealthCheck: Making call to discovery (ACSLEng.cpp.HealthCheck.592)
+2020-05-04T09:30:05.008297Z: t=b307: Info: mon: Begin status unauthorized http:Unauthorized (401) uri=https://scss.adobesc.com/api/v1 reqid=38cb0e128c3e279115885594077730030102files(ErrAuthorization) for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.handleJournalStatusHandler.614)
+2020-05-04T09:30:05.008726Z: t=b307: Info: mon: Begin Stop in state auth from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T09:30:05.008827Z: t=b307: Info: mon: Stopping in state auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.460)
+2020-05-04T09:30:05.009678Z: t=b307: Info: mon: Notifying changeMonitor status stopped+auth for changeMonitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.setState.564)
+2020-05-04T09:30:05.009967Z: t=b307: Info: mon: End Stop in state auth from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T09:30:05.010055Z: t=b307: Info: mon: End status unauthorized http:Unauthorized (401) uri=https://scss.adobesc.com/api/v1 reqid=38cb0e128c3e279115885594077730030102files(ErrAuthorization) for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.handleJournalStatusHandler.614)
+2020-05-04T09:30:05.010474Z: t=5c03: Info: ipc: Sending sync.out.notify.changemonitor.status 8D0E76C95CFBD7880A495C73@AdobeID c4b1bd96-0679-4f02-835b-0d4982fd60c1 >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <changemonitor>cclibraries</changemonitor>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <majorstate>stopped</majorstate>
+  <minorstate>auth</minorstate>
+  <requestid>c4b1bd96-0679-4f02-835b-0d4982fd60c1</requestid>
+  <type>sync.out.notify.changemonitor.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T09:30:05.013058Z: t=b307: Info: mon: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.413)
+2020-05-04T09:30:05.013206Z: t=b307: Error: task: unknown exception in doWork (Task.h.doWork.188)
+2020-05-04T09:30:05.014545Z: t=6d1f: Info: syn: End Starting change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startChangeMonitorsHandlerIf.2121)
+2020-05-04T09:30:05.015436Z: t=6d1f: Info: syn: End Starting for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startHandler.789)
+2020-05-04T09:30:05.015533Z: t=6d1f: Info: syn: End Handling network online for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOnlineHandler.880)
+2020-05-04T09:30:05.015583Z: t=6d1f: Error: syn: exception unauthorized siberrtype:2 network.online (SyncController.cpp.networkOnline.755)
+2020-05-04T09:30:05.015709Z: t=6d1f: Info: syn: Begin Handling network offline for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOfflineHandler.875)
+2020-05-04T09:30:05.015750Z: t=6d1f: Info: syn: Begin Stopping due to connectivity for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopHandler.813)
+2020-05-04T09:30:05.017264Z: t=6d1f: Info: syn: Begin Stopping jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopJobsHandlerIf.1785)
+2020-05-04T09:30:05.017328Z: t=14203: Info: job: Begin Stop in state connectivity from current state stopped+auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T09:30:05.017397Z: t=b703: Info: job: Begin Stop in state connectivity from current state stopped+auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T09:30:05.017484Z: t=14203: Info: job: Job is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2841)
+2020-05-04T09:30:05.017559Z: t=b703: Info: job: Job is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2841)
+2020-05-04T09:30:05.017582Z: t=14203: Info: job: End Stop in state connectivity from current state stopped+auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T09:30:05.017635Z: t=b703: Info: job: End Stop in state connectivity from current state stopped+auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T09:30:05.017818Z: t=6d1f: Info: syn: End Stopping jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopJobsHandlerIf.1785)
+2020-05-04T09:30:05.017903Z: t=6d1f: Info: syn: Begin Stopping change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopChangeMonitorsHandlerIf.2105)
+2020-05-04T09:30:05.017947Z: t=b307: Info: mon: Begin Stop in state connectivity from current state stopped+auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T09:30:05.018029Z: t=b307: Info: mon: Stop skipped - changeMonitor is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.454)
+2020-05-04T09:30:05.018088Z: t=b307: Info: mon: End Stop in state connectivity from current state stopped+auth 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T09:30:05.018173Z: t=6d1f: Info: syn: End Stopping change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopChangeMonitorsHandlerIf.2105)
+2020-05-04T09:30:05.018232Z: t=6d1f: Info: syn: End Stopping due to connectivity for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopHandler.813)
+2020-05-04T09:30:05.018284Z: t=6d1f: Info: syn: End Handling network offline for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOfflineHandler.875)
+2020-05-04T09:30:05.018367Z: t=6d1f: Info: syn: Begin Handling network online for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOnlineHandler.880)
+2020-05-04T09:30:05.018475Z: t=6d1f: Info: syn: Begin Starting for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startHandler.789)
+2020-05-04T09:30:05.018703Z: t=b703: Info: job: Begin Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.startHandler.2693)
+2020-05-04T09:30:05.018703Z: t=6d1f: Info: syn: Begin Starting jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startJobsHandlerIf.1804)
+2020-05-04T09:30:05.018763Z: t=14203: Info: job: Begin Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.startHandler.2693)
+2020-05-04T09:30:05.018783Z: t=b703: Info: job: Starting 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.startHandler.2722)
+2020-05-04T09:30:05.018976Z: t=b703: Info: job: Notifying job status stopped+enabled for job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.setState.3300)
+2020-05-04T09:30:05.019026Z: t=14203: Info: job: Starting 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.startHandler.2722)
+2020-05-04T09:30:05.019100Z: t=14203: Info: job: Notifying job status stopped+enabled for job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.setState.3300)
+2020-05-04T09:30:05.019651Z: t=5c03: Info: ipc: Sending sync.out.notify.job.status 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files 45977545-567c-476d-84d7-72417a44f2c7 >> ADCS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <job>files</job>
+  <majorstate>stopped</majorstate>
+  <minorstate>enabled</minorstate>
+  <requestid>45977545-567c-476d-84d7-72417a44f2c7</requestid>
+  <type>sync.out.notify.job.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T09:30:05.019764Z: t=b703: Info: ACSL.Eng: HealthCheck: Making call to discovery (ACSLEng.cpp.HealthCheck.592)
+2020-05-04T09:30:05.020148Z: t=14203: Info: ACSL.Eng: HealthCheck: Making call to discovery (ACSLEng.cpp.HealthCheck.592)
+2020-05-04T09:30:05.021137Z: t=5c03: Info: ipc: Sending sync.out.notify.job.status 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files 23f934de-abf4-459f-ac70-02d571fe6a40 >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <job>files</job>
+  <majorstate>stopped</majorstate>
+  <minorstate>enabled</minorstate>
+  <requestid>23f934de-abf4-459f-ac70-02d571fe6a40</requestid>
+  <type>sync.out.notify.job.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:16.773431Z: t=580b: Info: ipc: Receiving sync.in.request.auth.invalidate 8D0E76C95CFBD7880A495C73@AdobeID 54C2B8E0-D6A2-49AE-A0CE-0E339E3D8856 << ADCS (CoreSyncController.cpp.receiveMessage.252)
+2020-05-04T15:35:16.865963Z: t=0307: Info: jura: Connectivity change was: online, now: offline (NetworkMonitor_mac.mm.onReachabilityChange.198)
+2020-05-04T15:35:16.889300Z: t=e313: Warning: GUDE: Request Failed. ErrorCode: 32 errorMessage: Network Error. Network Error. (NSPOSIXErrorDomain 57) Socket is not connected. Socket is not connected. ({_kCFStreamErrorCodeKey=57,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.889330Z: t=12b33: Warning: GUDE: Request Failed. ErrorCode: 32 errorMessage: Network Error. Network Error. (NSPOSIXErrorDomain 57) Socket is not connected. Socket is not connected. ({_kCFStreamErrorCodeKey=57,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.891158Z: t=b703: Info: job: Begin handleErrorHandler JobController for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative, eErr=connectivity, sErr=(ErrNetworkErr) (JobController.cpp.handleErrorHandler.754)
+2020-05-04T15:35:16.891254Z: t=b703: Always: job: Stopping for 30 seconds due to untracked retry type error SibTErr_Connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.handleJobRecovery.3263)
+2020-05-04T15:35:16.891327Z: t=b703: Info: job: Begin Stop in state connectivity from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.891360Z: t=b703: Info: job: Stopping in state connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2812)
+2020-05-04T15:35:16.891427Z: t=b703: Info: cache_management: Begin CacheManager::stop for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (CacheManager.cpp.stop.49)
+2020-05-04T15:35:16.891468Z: t=b703: Info: cache_management: End CacheManager::stop for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (CacheManager.cpp.stop.49)
+2020-05-04T15:35:16.891514Z: t=b703: Info: job: Begin Stopping asset store controller asset_store.8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopAssetStore.2866)
+2020-05-04T15:35:16.891556Z: t=b703: Info: job: End Stopping asset store controller asset_store.8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopAssetStore.2866)
+2020-05-04T15:35:16.891603Z: t=b703: Info: job: Begin Stopping journal monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopJournalMonitor.2894)
+2020-05-04T15:35:16.891646Z: t=b703: Info: job: End Stopping journal monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopJournalMonitor.2894)
+2020-05-04T15:35:16.891703Z: t=b703: Info: job: File Monitoring was asked to stop on: : stopJob 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobProgressHandler.cpp.cbLogWG.317)
+2020-05-04T15:35:16.891787Z: t=b703: Info: job: File Monitoring was asked to stop on: : stopJob 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobProgressHandler.cpp.cbLogWG.317)
+2020-05-04T15:35:16.891837Z: t=b703: Info: job: Notifying job status stopped+connectivity for job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.setState.3300)
+2020-05-04T15:35:16.892017Z: t=b703: Info: job: Sending ETS event for job state: CORESYNC_JOB_STATE.CORESYNC_JOB_STATE_STOPPED (JobController.cpp.sendJobETSEvent.3686)
+2020-05-04T15:35:16.894114Z: t=b703: Info: job: End Stop in state connectivity from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.894197Z: t=b703: Info: job: End handleErrorHandler JobController for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative, eErr=connectivity, sErr=(ErrNetworkErr) (JobController.cpp.handleErrorHandler.754)
+2020-05-04T15:35:16.894322Z: t=b703: Info: job: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.startHandler.2693)
+2020-05-04T15:35:16.894521Z: t=b703: Error: task: exception (ErrNetworkErr): connectivity siberrtype:3 in doWork (Task.h.doWork.188)
+2020-05-04T15:35:16.897195Z: t=12b33: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.897238Z: t=e313: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.900021Z: t=ab3f: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.905895Z: t=14203: Info: job: Begin handleErrorHandler JobController for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files, eErr=connectivity, sErr=(ErrNetworkErr) (JobController.cpp.handleErrorHandler.754)
+2020-05-04T15:35:16.905978Z: t=14203: Always: job: Stopping for 30 seconds due to untracked retry type error SibTErr_Connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.handleJobRecovery.3263)
+2020-05-04T15:35:16.906088Z: t=14203: Info: job: Begin Stop in state connectivity from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.906140Z: t=14203: Info: job: Stopping in state connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2812)
+2020-05-04T15:35:16.906251Z: t=14203: Info: job: Begin Stopping asset store controller asset_store.8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopAssetStore.2866)
+2020-05-04T15:35:16.906291Z: t=14203: Info: job: End Stopping asset store controller asset_store.8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopAssetStore.2866)
+2020-05-04T15:35:16.906424Z: t=14203: Info: job: Begin Stopping journal monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopJournalMonitor.2894)
+2020-05-04T15:35:16.906488Z: t=14203: Info: job: End Stopping journal monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopJournalMonitor.2894)
+2020-05-04T15:35:16.906576Z: t=14203: Info: job: File Monitoring was asked to stop on: : stopJob 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobProgressHandler.cpp.cbLogWG.317)
+2020-05-04T15:35:16.906661Z: t=14203: Info: job: File Monitoring was asked to stop on: : stopJob 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobProgressHandler.cpp.cbLogWG.317)
+2020-05-04T15:35:16.906715Z: t=14203: Info: job: Notifying job status stopped+connectivity for job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.setState.3300)
+2020-05-04T15:35:16.906881Z: t=14203: Info: job: Sending ETS event for job state: CORESYNC_JOB_STATE.CORESYNC_JOB_STATE_STOPPED (JobController.cpp.sendJobETSEvent.3686)
+2020-05-04T15:35:16.907631Z: t=e313: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.907903Z: t=5c03: Info: ipc: Sending sync.out.notify.job.status 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files 9f21bb8a-025a-48a8-9029-1b277e009c64 >> ADCS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <job>files</job>
+  <majorstate>stopped</majorstate>
+  <minorstate>connectivity</minorstate>
+  <requestid>9f21bb8a-025a-48a8-9029-1b277e009c64</requestid>
+  <type>sync.out.notify.job.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:16.909184Z: t=14203: Info: shellux: JOB_STOP_AFTER (ShellConnectorImpl.cpp.operator().339)
+2020-05-04T15:35:16.909256Z: t=14203: Info: shellux: Begin notifySyncEnablement  syncIsEnabled 0 (ShellConnectorImpl.cpp.notifySyncEnablement.421)
+2020-05-04T15:35:16.909327Z: t=14203: Info: MacShellConnectorHelperImpl: Begin removeLocationOfInterest (ShellConnectorHelper.mm.removeLocationOfInterest.296)
+2020-05-04T15:35:16.910449Z: t=5c03: Info: ipc: Sending sync.out.notify.job.status 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files c21af1d1-1473-4c45-8f9c-7a0ce8351098 >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <job>files</job>
+  <majorstate>stopped</majorstate>
+  <minorstate>connectivity</minorstate>
+  <requestid>c21af1d1-1473-4c45-8f9c-7a0ce8351098</requestid>
+  <type>sync.out.notify.job.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:16.910524Z: t=ab3f: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.912557Z: t=eb0b: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.913673Z: t=14203: Info: MacShellConnectorHelperImpl: End removeLocationOfInterest (ShellConnectorHelper.mm.removeLocationOfInterest.296)
+2020-05-04T15:35:16.933075Z: t=14203: Info: MacShellConnectorHelperImpl: removeRemoteStateCache updated finder extension state cache with 0 items (ShellConnectorHelper.mm.-[MacShellConnectorHelperImpl removeRemoteStateCache:]_block_invoke.176)
+2020-05-04T15:35:16.933182Z: t=14203: Info: shellux: End notifySyncEnablement  syncIsEnabled 0 (ShellConnectorImpl.cpp.notifySyncEnablement.421)
+2020-05-04T15:35:16.933238Z: t=14203: Info: job: End Stop in state connectivity from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.934082Z: t=14203: Info: job: End handleErrorHandler JobController for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files, eErr=connectivity, sErr=(ErrNetworkErr) (JobController.cpp.handleErrorHandler.754)
+2020-05-04T15:35:16.934160Z: t=14203: Info: job: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.startHandler.2693)
+2020-05-04T15:35:16.934219Z: t=14203: Error: task: exception (ErrNetworkErr): connectivity siberrtype:3 in doWork (Task.h.doWork.188)
+2020-05-04T15:35:16.934289Z: t=6d1f: Info: syn: End Starting jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startJobsHandlerIf.1804)
+2020-05-04T15:35:16.934372Z: t=6d1f: Info: syn: Begin Starting change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startChangeMonitorsHandlerIf.2121)
+2020-05-04T15:35:16.934397Z: t=b307: Info: mon: Begin Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.413)
+2020-05-04T15:35:16.934448Z: t=b307: Info: mon: Starting 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.429)
+2020-05-04T15:35:16.934492Z: t=b307: Info: mon: Notifying changeMonitor status stopped+enabled for changeMonitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.setState.564)
+2020-05-04T15:35:16.934947Z: t=5c03: Info: ipc: Sending sync.out.notify.changemonitor.status 8D0E76C95CFBD7880A495C73@AdobeID 6ed3ba5d-4db2-4416-ace2-e5b97f5c1f89 >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <changemonitor>cclibraries</changemonitor>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <majorstate>stopped</majorstate>
+  <minorstate>enabled</minorstate>
+  <requestid>6ed3ba5d-4db2-4416-ace2-e5b97f5c1f89</requestid>
+  <type>sync.out.notify.changemonitor.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:16.935165Z: t=b307: Info: ACSL.Eng: HealthCheck: Making call to discovery (ACSLEng.cpp.HealthCheck.592)
+2020-05-04T15:35:16.937552Z: t=14f23: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.940666Z: t=b307: Info: mon: Begin status connectivity (ErrNetworkErr) for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.handleJournalStatusHandler.614)
+2020-05-04T15:35:16.940836Z: t=b307: Always: mon: Stopping for 30 seconds due to untracked retry type error SibTErr_Connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.handleRecovery.547)
+2020-05-04T15:35:16.941045Z: t=b307: Info: mon: Begin Stop in state connectivity from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T15:35:16.941217Z: t=b307: Info: mon: Stopping in state connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.460)
+2020-05-04T15:35:16.941338Z: t=b307: Info: mon: Notifying changeMonitor status stopped+connectivity for changeMonitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.setState.564)
+2020-05-04T15:35:16.941860Z: t=14f23: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.941868Z: t=5c03: Info: ipc: Sending sync.out.notify.changemonitor.status 8D0E76C95CFBD7880A495C73@AdobeID 0a639fbb-e095-42a8-a1c2-6f06ce624d7a >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <changemonitor>cclibraries</changemonitor>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <majorstate>stopped</majorstate>
+  <minorstate>connectivity</minorstate>
+  <requestid>0a639fbb-e095-42a8-a1c2-6f06ce624d7a</requestid>
+  <type>sync.out.notify.changemonitor.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:16.941912Z: t=b307: Info: mon: End Stop in state connectivity from current state stopped+enabled 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T15:35:16.942371Z: t=b307: Info: mon: End status connectivity (ErrNetworkErr) for 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.handleJournalStatusHandler.614)
+2020-05-04T15:35:16.942458Z: t=b307: Info: mon: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.413)
+2020-05-04T15:35:16.942510Z: t=b307: Error: task: unknown exception in doWork (Task.h.doWork.188)
+2020-05-04T15:35:16.942769Z: t=6d1f: Info: syn: End Starting change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startChangeMonitorsHandlerIf.2121)
+2020-05-04T15:35:16.942841Z: t=6d1f: Info: syn: End Starting for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startHandler.789)
+2020-05-04T15:35:16.942884Z: t=6d1f: Info: syn: End Handling network online for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOnlineHandler.880)
+2020-05-04T15:35:16.942927Z: t=6d1f: Error: syn: exception connectivity siberrtype:3 network.online (SyncController.cpp.networkOnline.755)
+2020-05-04T15:35:16.943073Z: t=6d1f: Info: syn: Begin Failing access due to unauthorized from job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.authFailureHandler.1217)
+2020-05-04T15:35:16.944027Z: t=eb0b: Warning: GUDE: Request Failed. ErrorCode: 100050 errorMessage: Platform Status. Platform Status. (NSPOSIXErrorDomain 50) Network is down. Network is down. ({_kCFStreamErrorCodeKey=50,_kCFStreamErrorDomainKey=1}) (ClientCallbackHandler.cpp.invokeErrorCallback.329)
+2020-05-04T15:35:16.949672Z: t=6d1f: Info: auth: Failing access due to AuthError unauthorized for vanderpool915@gmail.com (SSO) for 8D0E76C95CFBD7880A495C73@AdobeID (AuthController.cpp.failure.270)
+2020-05-04T15:35:16.949768Z: t=6d1f: Info: auth: Notifying unauthorized access for vanderpool915@gmail.com (SSO) for 8D0E76C95CFBD7880A495C73@AdobeID (AuthController.cpp.sendAuthFailed.383)
+2020-05-04T15:35:16.953036Z: t=6d1f: Info: ipc: Sending sync.out.broadcast.auth.failed 8D0E76C95CFBD7880A495C73@AdobeID 7882916d-b743-4c29-90d6-ae7bccc1142f >> ADCS (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:16.954002Z: t=6d1f: Info: syn: End Failing access due to unauthorized from job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.authFailureHandler.1217)
+2020-05-04T15:35:16.954192Z: t=6d1f: Info: syn: Begin Failing access due to unauthorized from job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.authFailureHandler.1217)
+2020-05-04T15:35:16.954272Z: t=6d1f: Info: auth: Failing access due to AuthError unauthorized for vanderpool915@gmail.com (SSO) for 8D0E76C95CFBD7880A495C73@AdobeID (AuthController.cpp.failure.270)
+2020-05-04T15:35:16.954323Z: t=6d1f: Info: auth: Notifying unauthorized access for vanderpool915@gmail.com (SSO) for 8D0E76C95CFBD7880A495C73@AdobeID (AuthController.cpp.sendAuthFailed.383)
+2020-05-04T15:35:16.954542Z: t=6d1f: Info: ipc: Sending sync.out.broadcast.auth.failed 8D0E76C95CFBD7880A495C73@AdobeID 5e4f4b81-0df5-437e-8d77-63362e43d37e >> ADCS (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:16.955325Z: t=6d1f: Info: syn: End Failing access due to unauthorized from job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.authFailureHandler.1217)
+2020-05-04T15:35:16.955508Z: t=6d1f: Info: syn: Begin Failing access due to unauthorized from change monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.authFailureHandler.1217)
+2020-05-04T15:35:16.955586Z: t=6d1f: Info: auth: Failing access due to AuthError unauthorized for vanderpool915@gmail.com (SSO) for 8D0E76C95CFBD7880A495C73@AdobeID (AuthController.cpp.failure.270)
+2020-05-04T15:35:16.955642Z: t=6d1f: Info: auth: Notifying unauthorized access for vanderpool915@gmail.com (SSO) for 8D0E76C95CFBD7880A495C73@AdobeID (AuthController.cpp.sendAuthFailed.383)
+2020-05-04T15:35:16.955810Z: t=6d1f: Info: ipc: Sending sync.out.broadcast.auth.failed 8D0E76C95CFBD7880A495C73@AdobeID 5223ce2d-e652-4354-9723-14df2c1faf1f >> ADCS (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:16.956416Z: t=6d1f: Info: syn: End Failing access due to unauthorized from change monitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.authFailureHandler.1217)
+2020-05-04T15:35:16.956551Z: t=6d1f: Info: syn: Begin Invalidating access for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.authInvalidateHandler.1194)
+2020-05-04T15:35:16.956838Z: t=6d1f: Info: AppHookControllerImpl::onInvalidateAccessToken in
+2020-05-04T15:35:16.956964Z: t=6d1f: Info: [livetype] onInvalidateAccessToken
+2020-05-04T15:35:16.957020Z: t=6d1f: Info: AppHookControllerImpl::onInvalidateAccessToken out
+2020-05-04T15:35:16.957065Z: t=6d1f: Info: syn: Begin Stopping due to auth_invalidated for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopHandler.813)
+2020-05-04T15:35:16.957132Z: t=6d1f: Info: syn: Begin Stopping jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopJobsHandlerIf.1785)
+2020-05-04T15:35:16.957168Z: t=b703: Info: job: Begin Stop in state auth from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.957239Z: t=b703: Info: job: Job is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2841)
+2020-05-04T15:35:16.957276Z: t=b703: Info: job: End Stop in state auth from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.957372Z: t=14203: Info: job: Begin Stop in state auth from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.957431Z: t=14203: Info: job: Job is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2841)
+2020-05-04T15:35:16.957468Z: t=14203: Info: job: End Stop in state auth from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.957517Z: t=6d1f: Info: syn: End Stopping jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopJobsHandlerIf.1785)
+2020-05-04T15:35:16.957584Z: t=6d1f: Info: syn: Begin Stopping change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopChangeMonitorsHandlerIf.2105)
+2020-05-04T15:35:16.957615Z: t=b307: Info: mon: Begin Stop in state auth from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T15:35:16.957702Z: t=b307: Info: mon: Stop skipped - changeMonitor is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.454)
+2020-05-04T15:35:16.957741Z: t=b307: Info: mon: End Stop in state auth from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T15:35:16.957795Z: t=6d1f: Info: syn: End Stopping change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopChangeMonitorsHandlerIf.2105)
+2020-05-04T15:35:16.957833Z: t=6d1f: Info: syn: End Stopping due to auth_invalidated for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopHandler.813)
+2020-05-04T15:35:16.957885Z: t=6d1f: Info: auth: Invalidating access for vanderpool915@gmail.com (SSO) for 8D0E76C95CFBD7880A495C73@AdobeID (AuthController.cpp.invalidate.255)
+2020-05-04T15:35:16.959746Z: t=6d1f: Info: syn: End Invalidating access for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.authInvalidateHandler.1194)
+2020-05-04T15:35:16.960049Z: t=6d1f: Info: ipc: Sending success sync.out.response.auth.invalidate 8D0E76C95CFBD7880A495C73@AdobeID 54C2B8E0-D6A2-49AE-A0CE-0E339E3D8856 >> ADCS (CoreSyncController.cpp.sendResponse.260)
+2020-05-04T15:35:16.961655Z: t=6d1f: Info: syn: Begin Handling network offline for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOfflineHandler.875)
+2020-05-04T15:35:16.961716Z: t=6d1f: Info: syn: Begin Stopping due to connectivity for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopHandler.813)
+2020-05-04T15:35:16.961876Z: t=6d1f: Info: syn: Begin Stopping jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopJobsHandlerIf.1785)
+2020-05-04T15:35:16.961942Z: t=b703: Info: job: Begin Stop in state connectivity from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.962006Z: t=14203: Info: job: Begin Stop in state connectivity from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.962062Z: t=14203: Info: job: Job is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2841)
+2020-05-04T15:35:16.962083Z: t=b703: Info: job: Job is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2841)
+2020-05-04T15:35:16.962130Z: t=b703: Info: job: End Stop in state connectivity from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.962099Z: t=14203: Info: job: End Stop in state connectivity from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.stopHandler.2799)
+2020-05-04T15:35:16.962251Z: t=6d1f: Info: syn: End Stopping jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopJobsHandlerIf.1785)
+2020-05-04T15:35:16.962315Z: t=6d1f: Info: syn: Begin Stopping change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopChangeMonitorsHandlerIf.2105)
+2020-05-04T15:35:16.962320Z: t=a607: Info: [livetype]  enableFontSync
+2020-05-04T15:35:16.962348Z: t=b307: Info: mon: Begin Stop in state connectivity from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T15:35:16.962469Z: t=a607: Info: [livetype] longpoll: processing latest entitlement file
+2020-05-04T15:35:16.962479Z: t=b307: Info: mon: Stop skipped - changeMonitor is already stopped 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.454)
+2020-05-04T15:35:16.962632Z: t=b307: Info: mon: End Stop in state connectivity from current state stopped+connectivity 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.stopHandler.447)
+2020-05-04T15:35:16.962685Z: t=6d1f: Info: syn: End Stopping change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopChangeMonitorsHandlerIf.2105)
+2020-05-04T15:35:16.962744Z: t=6d1f: Info: syn: End Stopping due to connectivity for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.stopHandler.813)
+2020-05-04T15:35:16.962775Z: t=6d1f: Info: syn: End Handling network offline for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOfflineHandler.875)
+2020-05-04T15:35:16.965494Z: t=a607: Info: [livetype] longpoll: couldn't find entitlement file
+2020-05-04T15:35:16.965603Z: t=a607: Info: [livetype] longpoll: New entitlement file processing failed.
+2020-05-04T15:35:16.974849Z: t=a607: Info: [livetype] synced fonts
+2020-05-04T15:35:17.785193Z: t=0307: Info: jura: Connectivity change was: offline, now: online (NetworkMonitor_mac.mm.onReachabilityChange.198)
+2020-05-04T15:35:17.788699Z: t=6d1f: Info: syn: Begin Handling network online for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOnlineHandler.880)
+2020-05-04T15:35:17.788780Z: t=6d1f: Info: syn: Begin Starting for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startHandler.789)
+2020-05-04T15:35:17.788897Z: t=6d1f: Info: syn: Begin Starting jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startJobsHandlerIf.1804)
+2020-05-04T15:35:17.789917Z: t=b703: Info: job: Begin Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.startHandler.2693)
+2020-05-04T15:35:17.790022Z: t=b703: Info: job: Start failed - job is not authorized invalidated 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.startHandler.2704)
+2020-05-04T15:35:17.790089Z: t=b703: Info: job: Notifying job status stopped+auth for job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.setState.3300)
+2020-05-04T15:35:17.790350Z: t=b703: Info: job: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cloudnative (JobController.cpp.startHandler.2693)
+2020-05-04T15:35:17.790550Z: t=b703: Error: task: exception unauthorized musync:13 in doWork (Task.h.doWork.188)
+2020-05-04T15:35:17.789929Z: t=14203: Info: job: Begin Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.startHandler.2693)
+2020-05-04T15:35:17.791060Z: t=14203: Info: job: Start failed - job is not authorized invalidated 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.startHandler.2704)
+2020-05-04T15:35:17.791120Z: t=14203: Info: job: Notifying job status stopped+auth for job 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.setState.3300)
+2020-05-04T15:35:17.791279Z: t=14203: Info: job: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files (JobController.cpp.startHandler.2693)
+2020-05-04T15:35:17.791337Z: t=14203: Error: task: exception unauthorized musync:13 in doWork (Task.h.doWork.188)
+2020-05-04T15:35:17.791802Z: t=5c03: Info: ipc: Sending sync.out.notify.job.status 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files b5076caa-b4e7-4575-b9d4-5b2d0154ad68 >> ADCS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <job>files</job>
+  <majorstate>stopped</majorstate>
+  <minorstate>auth</minorstate>
+  <requestid>b5076caa-b4e7-4575-b9d4-5b2d0154ad68</requestid>
+  <type>sync.out.notify.job.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:17.792308Z: t=6d1f: Info: syn: End Starting jobs for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startJobsHandlerIf.1804)
+2020-05-04T15:35:17.792479Z: t=6d1f: Info: syn: Begin Starting change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startChangeMonitorsHandlerIf.2121)
+2020-05-04T15:35:17.795729Z: t=b307: Info: mon: Begin Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.413)
+2020-05-04T15:35:17.795791Z: t=b307: Info: mon: Start failed - changeMonitor is not authorized invalidated 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.424)
+2020-05-04T15:35:17.795818Z: t=b307: Info: mon: Notifying changeMonitor status stopped+auth for changeMonitor 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.setState.564)
+2020-05-04T15:35:17.795921Z: t=b307: Info: mon: End Start 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.cclibraries (ChangeMonitorController.cpp.startHandler.413)
+2020-05-04T15:35:17.795954Z: t=b307: Error: task: exception unauthorized musync:13 in doWork (Task.h.doWork.188)
+2020-05-04T15:35:17.798784Z: t=6d1f: Info: syn: End Starting change monitors for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startChangeMonitorsHandlerIf.2121)
+2020-05-04T15:35:17.798881Z: t=6d1f: Info: syn: End Starting for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.startHandler.789)
+2020-05-04T15:35:17.798921Z: t=6d1f: Info: syn: End Handling network online for 8D0E76C95CFBD7880A495C73@AdobeID (SyncController.cpp.networkOnlineHandler.880)
+2020-05-04T15:35:17.798961Z: t=6d1f: Error: syn: exception unauthorized musync:13 network.online (SyncController.cpp.networkOnline.755)
+2020-05-04T15:35:17.798969Z: t=5c03: Info: ipc: Sending sync.out.notify.job.status 8D0E76C95CFBD7880A495C73@AdobeID.00000000-0000-0000-0000-000000000000.files 066c5b0d-dbae-4a2b-bd08-603a269bcfa8 >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <job>files</job>
+  <majorstate>stopped</majorstate>
+  <minorstate>auth</minorstate>
+  <requestid>066c5b0d-dbae-4a2b-bd08-603a269bcfa8</requestid>
+  <type>sync.out.notify.job.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)
+2020-05-04T15:35:17.800498Z: t=5c03: Info: ipc: Sending sync.out.notify.changemonitor.status 8D0E76C95CFBD7880A495C73@AdobeID 6490170f-5db2-46f9-916a-b34943d9d161 >> LIBS
+<?xml version="1.0" encoding="utf-8"?>
+<message>
+  <changemonitor>cclibraries</changemonitor>
+  <cloudid>00000000-0000-0000-0000-000000000000</cloudid>
+  <majorstate>stopped</majorstate>
+  <minorstate>auth</minorstate>
+  <requestid>6490170f-5db2-46f9-916a-b34943d9d161</requestid>
+  <type>sync.out.notify.changemonitor.status</type>
+  <userid>8D0E76C95CFBD7880A495C73@AdobeID</userid>
+  <version>1.1.43361</version>
+</message>
+ (CoreSyncController.cpp.sendRequest.268)

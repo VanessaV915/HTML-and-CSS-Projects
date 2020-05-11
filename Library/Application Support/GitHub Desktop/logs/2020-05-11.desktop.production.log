@@ -1,0 +1,21 @@
+2020-05-11T01:54:06.063Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 5.382s)
+2020-05-11T01:54:11.399Z - info: [ui] Current tutorial step is NotApplicable
+2020-05-11T01:56:03.396Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.202s)
+2020-05-11T01:56:05.234Z - info: [ui] Background fetch for 4 repositories took 5.692sec
+2020-05-11T04:05:27.052Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/VanessaV915/HTML-and-CSS-Projects.git/': Could not resolve host: github.com
+
+2020-05-11T04:05:27.161Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-05-11T04:05:34.912Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 7.741s)
+2020-05-11T11:45:07.215Z - info: [ui] Current tutorial step is NotApplicable
+2020-05-11T11:45:07.314Z - warn: [ui] getFetchPollInterval: failed for vanessav915/HTML-and-CSS-Projects
+TypeError: Failed to fetch
+2020-05-11T12:36:44.041Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 5.310s)
+2020-05-11T12:36:46.184Z - info: [ui] Background fetch for 4 repositories took 9.128sec
+2020-05-11T13:04:04.799Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.022s)
+2020-05-11T13:04:14.610Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 7.065s)
+2020-05-11T13:04:16.907Z - info: [ui] Background fetch for 4 repositories took 13.141sec
+2020-05-11T13:15:47.105Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 5.892s)
+2020-05-11T13:15:49.493Z - info: [ui] Current tutorial step is NotApplicable

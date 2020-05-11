@@ -1,0 +1,2 @@
+2020-05-03T08:50:45.895Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 6.187s)
+2020-05-03T08:50:49.598Z - info: [ui] Current tutorial step is NotApplicable
